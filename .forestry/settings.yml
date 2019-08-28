@@ -3,7 +3,17 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: document
+  path: home
+  label: Home
+  match: "**/*"
+- type: heading
+  label: Projects
+- type: document
+  path: contact
+  label: Contact
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
