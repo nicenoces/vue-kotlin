@@ -7,13 +7,11 @@ sections:
 - type: document
   path: home
   label: Home
-  match: "**/*"
 - type: heading
   label: Projects
 - type: document
   path: contact
   label: Contact
-  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
